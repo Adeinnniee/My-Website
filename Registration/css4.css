@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #BD9C74;
+    font-family: monospace;
+}
+
+/* styling the header - nav section */
+header{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    font-size: 1.2rem;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: white;
+    transform: translateY(-0.2rem);
+}
+
+
+/* styling the main section */
+main{
+   text-align: center;
+}
+
+input, select{
+    border-radius: 1rem;
+    font-size: 1rem;
+    border: 0rem solid;
+    box-shadow: 0.03rem 0.03rem 0.3rem rgb(227, 227, 227);
+    color: black;
+    background-color: #ffff;
+}
+
+input{
+    padding: 0.7rem 9rem 0.7rem 1rem;
+}
+
+select{
+    padding: 0.7rem 15.5rem 0.7rem 1rem;
+}
+
+select:focus, input:focus{
+    outline: none;
+}
+
+
+/* styling the footer section */
+footer{
+    text-align: center;
+}
+
+button{
+    padding: 0.7rem 4rem;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border-radius: 2rem;
+    border: 0rem solid;
+    color: black;
+    background-color: #A7AC38;
+    box-shadow: 0.1rem 0.2rem 0.7rem black;
+    font-family: monospace;
+}
+
+button:hover{
+    cursor: pointer;
+    color: #ffff;
+    transform: translateY(-0.3rem);
+}
+
+ 
+
+       /* MEDIA QUERIES */
+@media (max-width: 600px){
+
+    /* stlying the header - nav section */
+    nav{
+        margin-top: 6rem;
+        width: 80%;
+        font-size: 0.9rem;
+    }
+
+    /* styling the main section */
+    input{
+        padding: 0.7rem 5rem 0.7rem 1rem;
+    }
+
+    select{
+        padding: 0.7rem 11.5rem 0.7rem 1rem;
+    }
+
+    h1{
+        font-size: 1.2rem;
+    }
+
+    /* styling the footer section */
+    button{
+        padding: 0.7rem 3rem;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+
+    /* stlying the header - nav section */
+    nav{
+        width: 45%;
+    }
+}
+
+
+@media (min-width: 1400px) and (max-width: 2500px){
+
+    /* stlying the header - nav section */
+    nav{
+        width: 25%;
+    }
+}
+
+
+@media (min-width: 2500px){
+
+    /* stlying the header - nav section */
+    nav{
+        width: 14%;
+    }
+}
+
+
+
+
+
+
+

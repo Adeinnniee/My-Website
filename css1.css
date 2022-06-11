@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* styling the body */
+body{
+    background-color: #BD9C74;
+    color: black;
+    font-family: monospace;
+}
+
+
+/* styling the header - nav section */
+header{
+    margin: 1rem 0rem 1rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    gap: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+a:hover{
+    color: white;
+    transition: translateY(-0.3rem);
+}
+
+
+/* styling the horizontal line */
+hr{
+    padding: 0rem;
+    border-width: 0.02rem;
+    border-color: #ffff;
+}
+
+#initial-line{
+    width: 100%;
+}
+
+
+/* styling the main section */
+main{
+    text-align: center;
+}
+
+img{
+    margin-top: 2rem;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+span{
+    font-size: 1.2rem;
+    margin: 0% 10% 0% 6%;
+    text-align: center;
+}
+
+.more-info{
+    display: flex;
+    text-align: center;
+}
+
+.hobbies{
+    margin-left: 25%;
+    text-align: justify;
+    width: 90%;
+}
+
+.priorities{
+    margin-right: 3%;
+    text-align: justify;
+    width: 90%;
+}
+
+.line{
+    margin: 1rem 10rem 0rem 10rem;
+    border-width: 0.02rem;
+}
+
+#hobbies-title{
+    margin: 2% 0% 1% 7%;
+    font-size: 1.5rem;
+}
+
+#skills-title{
+    margin: 1% 0% 1% 7%;
+    font-size: 1.5rem;
+}
+
+#name{
+    margin: 2% 0% 2% 3%;
+    font-size: 1.5rem;
+}
+
+li{
+    font-size: 1.2rem;
+    text-align: start;
+}
+
+#priorirites-info{
+    width: 50%;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+p{
+    margin: 1rem auto;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+ol{
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+.skills{
+    text-align: center;
+}
+
+ul{
+    margin-left: 42%;
+    width: 25%;
+}
+
+#skills-info{
+    margin-left: 16%;
+}
+
+
+/* styling the footer section*/
+footer{
+    padding: 5rem;
+}
+
+button{
+    float: right;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 1rem;
+    border: 0rem #BD9C74;
+}
+
+#contact{
+    color: #A7AC38;
+}
+
+#contact:hover{
+    color: black;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: translateY(-0.5rem);
+}
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 600px){
+    /* styling the header-nav section */
+    header{
+        margin-left: 35%;
+        padding: 0rem 1rem 0rem 4rem;
+    }
+
+    h2{
+        font-size: 1rem;
+    }
+
+    nav{
+        margin-left: 30%;
+    }
+
+    a{
+        font-size: 1rem;
+    }
+
+    #initial-line{
+        width: 150%;
+    }
+
+    /* styling the main section */
+    main{
+        margin-left: 20%;
+    }
+
+    img{
+        width: 50%;
+        margin-left: 30%;
+    }
+
+    p{
+        width: 75%;
+        margin-left: 30%;
+    }
+
+    .more-info{
+        margin-right: 15%;
+        gap: 10%;
+    }
+
+    .line{
+        margin: 1rem -6rem 0rem 1rem;
+    }
+
+    .hobbies, .priorities{
+        margin-top: 0.7rem;
+    }
+
+    #hobbies-title, #name{
+        margin: 4% 15% 4% -5%;
+    }
+
+    #skills-title{
+        margin: 5% -20% 0% 0%;
+    }
+
+    .skills{
+        margin-left: 10%;
+    }
+
+    #skills-info{
+        margin-top: 3%;
+    }
+
+    ul{
+        width: 70%;
+    }
+
+    /* styling the footer section */
+    button{
+        margin-right: -95%;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 900px){
+    .line{
+        margin: 1rem 3rem 0rem 5rem;
+    }
+}

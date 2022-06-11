@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="css4.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    </head>
+
+    <body>
+        
+        <!--Header containing links-->
+        <header>
+            <nav>
+                <a href="../index.html">About me</a>
+                <a href="../contact/Contact.html">Contact me</a>
+                <a href="../Login/Login.html">Login</a>
+            </nav>
+        </header>
+    
+
+
+        <!--Sign up information-->
+        <main>
+            <br>
+            <i class="material-icons" style="font-size: 5rem; color:black">account_circle</i>
+            <br><br><br>
+            <h1>LET'S GET STARTED!</h1>
+            <form action="">
+                <label for="firstname">
+                    <br><input type="text" name="firstname" placeholder="First Name" required>
+                </label>
+                <br>
+                <label for="lastname">
+                    <br><input type="text" name="lastname" placeholder="Last Name" required>
+                </label>
+                <br>
+                <label for="phone-no">
+                    <br><input type="tel" name="phone-no" placeholder="Phone No." required>
+                </label>
+                <br><br>
+                <label for="gender">
+                    <select name="gender" id="gender">
+                        <optgroup label="Gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </optgroup>
+                    </select>
+                </label>
+                <br>
+                <label for="country"> 
+                    <br><input type="text" name="country" placeholder="Country" required>
+                </label>
+                <br>
+                <label for="state"> 
+                    <br><input type="text" name="state" placeholder="State/Province" required>
+                </label>
+                <br>
+                <label for="email"> 
+                    <br><input type="email" name="email" placeholder="Email" required>
+                </label>
+                <br>
+                <label for="password">
+                    <br><input type="password" name="password" placeholder="Password" required>
+                </label>
+                <br>
+                <label for="confirm-password"> 
+                    <br><input type="password" name="confirm-password" placeholder="Confirm Password" required>
+                </label>
+            </form>
+        </main>
+        <br><br>
+
+
+        <!--footer section containing the register button-->
+        <footer>
+            <button type="submit">REGISTER</button>
+        </footer>
+        <br><br><br><br><br> 
+    </body>
+</html>

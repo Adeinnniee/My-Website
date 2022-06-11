@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*styling the body */
+body{
+    background-color: #BD9C74;
+    font-family: monospace;
+}
+
+
+/* styling the header - nav section */
+nav{
+    background-color: white;
+    margin: 2rem auto;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    border-style: 0.5rem solid;
+    border-radius: 1rem;
+    padding: 1rem 0.7rem 1rem 0.7rem; 
+    box-shadow: 0.2rem 0.5rem 0.2rem #BD9C74;
+    opacity: 80%;
+}
+
+a{
+    text-decoration: none;
+    color: #A7AC38;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+a:hover{
+    color: black;
+    transform: translateY(-0.1rem);
+}
+
+
+/* styling h1 and icon*/
+h1{
+    color: black;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.material-icons{
+    color: black;
+    margin-left: 46%;
+}
+
+
+/* styling the container */
+.container{
+    margin: 1rem auto;
+    border-radius: 1rem;
+    width: 50%;
+    height: 70%;
+    background-color: #ffff;
+    opacity: 80%;
+}
+
+
+/* styling the main section */
+form{
+    margin-left: 2rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+input{
+    margin-top: 0.5rem;
+    border: 0.1rem #BD9C74 solid;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+input:focus{
+    outline: none;
+}
+
+label{
+    margin-top: 2.5rem;
+    color: #C4A53E;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+#message{
+    padding: 0.5rem 0.7rem 4rem 0.7rem;
+}
+
+
+/* styling the footer section */
+footer{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#submit{
+    padding: 1rem 2rem 1rem 2rem;
+    color: #ffff;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    background-color: #BD9C74;
+    border-color: #BD9C74;
+    border-width: 0rem;
+    border-radius: 0.5rem;
+    font-family: monospace;
+}
+
+#submit:hover{
+    cursor: pointer;
+    background-color:#A7AC38;
+    color: black;
+    transform: translateY(-0.3rem);
+}
+
+
+
+/* MEDIA QUERY */
+@media (max-width: 600px){
+    nav, .container{
+        width: 85%;
+    }
+
+    .material-icons{
+        margin-left: 40%;
+    }
+
+    nav{
+        margin-top: 6rem;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 2000px){
+    nav, .container{
+        width: 30%;
+    }
+
+    .material-icons{
+        margin-left: 48%;
+
+    }
+}
+
+@media(min-width: 2000px){
+    nav, .container{
+        width: 15%;
+    }
+
+    .material-icons{
+        margin-left: 49%;
+    }
+}
